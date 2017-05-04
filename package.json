@@ -7,7 +7,8 @@
   "author": "Samer Buna",
   "license": "MIT",
   "scripts": {
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node"
+    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "webpack": "webpack -wd"
   },
   "babel": {
     "presets": [
@@ -23,11 +24,16 @@
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
-    "pm2": "^2.4.6"
+    "pm2": "^2.4.6",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.0"
   }
 }
