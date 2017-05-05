@@ -22,7 +22,8 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^6.10.3",
-    "jest": "^19.0.2"
+    "jest": "^19.0.2",
+    "react-test-renderer": "^15.5.4"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
