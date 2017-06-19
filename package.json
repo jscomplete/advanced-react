@@ -41,6 +41,7 @@
     "pm2": "^2.5.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.0",
+    "react-addons-perf": "^15.4.2",
     "react-dom": "^15.6.0",
     "webpack": "^2.6.1"
   }

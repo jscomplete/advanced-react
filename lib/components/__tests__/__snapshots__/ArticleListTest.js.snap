@@ -46,7 +46,7 @@ ShallowWrapper {
   "renderer": ReactShallowRenderer {
     "_instance": ShallowComponentWrapper {
       "_calledComponentWillUnmount": false,
-      "_compositeType": 2,
+      "_compositeType": 1,
       "_context": Object {},
       "_currentElement": <ArticleList
         articles={
@@ -63,7 +63,7 @@ ShallowWrapper {
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
-      "_instance": StatelessComponent {
+      "_instance": ArticleList {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
