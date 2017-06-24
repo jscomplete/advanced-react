@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "NODE_PATH=./lib pm2 start lib/server.js --watch --interpreter babel-node",
     "webpack": "webpack -wd",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "verify-tests": "jest --coverage"
   },
   "babel": {
     "presets": [
