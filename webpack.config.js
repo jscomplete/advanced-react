@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 const config = {
   entry: ['babel-polyfill', './lib/components/Index.js'],
@@ -8,9 +8,9 @@ const config = {
   },
   module: {
     rules: [
-      {test: /\.js$/, exclude: /node_modules/, use: 'babel-loader'}
+      { test: /\.js$/, exclude: /node_modules/, use: 'babel-loader' }
     ]
   }
-};
+}
 
-module.exports = config;
+module.exports = config
